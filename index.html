@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+      
+    <title>Login</title>
+    <meta charset="utf-8">
+
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <link href="css/bootstrap.min.css" rel="stylesheet">
+      <link href="css/bootstrap-responsive.min.css" rel="stylesheet">
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+  </head>
+  <body>
+		<div class="container" style="width:300px; padding:40px 0;">
+
+        <form class="form-signin" method="post" action="check_login.php">
+          
+            <h2 class="form-signin-heading">PSU Smart University</h2>
+            <br><br>
+          
+            <label for="inputEmail" class="sr-only">Student ID</label>
+            <input type="text" id="user" class="form-control" placeholder="Student ID" required="" autofocus="" name="studentId"></br>
+            
+            <label for="inputPassword" class="sr-only">Password</label>
+            <input type="password" id="inputPassword" class="form-control" placeholder="Password" required="" name="password">
+            
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" value="remember-me"> Remember me
+                </label>
+            </div>
+        <button  class="btn btn-lg btn-primary btn-block" type="submit">Login</button>
+      </form>
+
+    </div> 
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
